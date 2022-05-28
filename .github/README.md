@@ -7,3 +7,5 @@
 ![image](https://user-images.githubusercontent.com/513842/170803107-5329b4ec-38ab-45be-9cee-75262cd888a8.png)
 
 ---
+
+> A keygen template I coded some months ago. Feel free to improve it. Thanks to CHAAK for the main dialog GFX.
