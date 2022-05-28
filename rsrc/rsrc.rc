@@ -1,0 +1,139 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KEYGEN DIALOGEX 0, 0, 243, 154
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS SANS SERIF", 0, 0, 0x1
+BEGIN
+    CONTROL         "Generate",IDC_GENERATE,"Button",BS_OWNERDRAW | WS_TABSTOP,115,138,39,13
+    CONTROL         "About",IDC_ABOUT,"Button",BS_OWNERDRAW | WS_TABSTOP,157,138,39,13
+    CONTROL         "Exit",IDC_EXIT,"Button",BS_OWNERDRAW | BS_BITMAP | WS_TABSTOP,199,138,39,13
+    CONTROL         110,IDC_KEYGEN,"Static",SS_BITMAP,0,0,243,154
+    EDITTEXT        IDC_SERIAL,5,111,233,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 213, 145
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_GAME,0,0,213,145
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+FFF_ICON                ICON                    "icone.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT_DOWN          BITMAP                  "gfx\\bt_about_down.bmp"
+IDB_ABOUT_HOVER         BITMAP                  "gfx\\bt_about_hover.bmp"
+IDB_EXIT_DOWN           BITMAP                  "gfx\\bt_exit_down.bmp"
+IDB_EXIT_HOVER          BITMAP                  "gfx\\bt_exit_hover.bmp"
+IDB_GENERATE_DOWN       BITMAP                  "gfx\\bt_generate_down.bmp"
+IDB_GENERATE_HOVER      BITMAP                  "gfx\\bt_generate_hover.bmp"
+IDB_KEYGEN              BITMAP                  "gfx\\keygen.bmp"
+IDB_GENERATE            BITMAP                  "gfx\\bt_generate.bmp"
+IDB_ABOUT               BITMAP                  "gfx\\bt_about.bmp"
+IDB_EXIT                BITMAP                  "gfx\\bt_exit.bmp"
+IDB_AIRCRAFT            BITMAP                  "galaga\\bitmap1.bmp"
+IDB_ENNEMY2             BITMAP                  "galaga\\bmp00002.bmp"
+IDB_ENNEMY3             BITMAP                  "galaga\\bmp00003.bmp"
+IDB_SWORD               BITMAP                  "galaga\\bmp00004.bmp"
+IDB_ENNEMY2_            BITMAP                  "galaga\\bmp00005.bmp"
+IDB_ENNEMY4_            BITMAP                  "galaga\\bmp00006.bmp"
+IDB_BIG_EXPLOSION       BITMAP                  "galaga\\bmp00007.bmp"
+IDB_ENNEMY              BITMAP                  "galaga\\ennemy2.bmp"
+IDB_ENNEMY3_            BITMAP                  "galaga\\ennemy3_.bmp"
+IDB_ENNEMY4             BITMAP                  "galaga\\ennemy4.bmp"
+IDB_ENNEMY_             BITMAP                  "galaga\\ennemy_.bmp"
+IDB_EXPLOSION           BITMAP                  "galaga\\explosio.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Font
+//
+
+IDR_FONT1              FONT                     "font.ttf"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XMMOD
+//
+
+ID_MYMOD                XMMOD                   "Mod.D-Lux_2-2ch.xm"
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
